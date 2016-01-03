@@ -16,3 +16,5 @@ markdown: kramdown
 # scss files
 sass:
   sass_dir: _bootstrap/scss
+
+google_analytics_tracking_id: UA-27462297-2

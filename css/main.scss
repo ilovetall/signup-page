@@ -67,6 +67,15 @@ div#teaser {
   span {
     font-family: "Hind","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     font-size: 26px;
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+  }
+
+  @include media-query($on-laptop) {
+    span {
+      font-size: 20px;
+    }
   }
 }
 
@@ -79,6 +88,13 @@ div#signup-form {
     font-size: 26px;
     font-weight: normal;
     text-align: center;
+    line-height: 30px;
+  }
+
+  @include media-query($on-laptop) {
+    h2 {
+      font-size: 20px;
+    }
   }
 
   label#emailLabel {

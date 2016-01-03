@@ -39,7 +39,77 @@ $on-laptop:        800px;
     }
 }
 
+body, input, button, label, span, h2, div {
+  font-family: "Hind","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
 
+header {
+  padding-top: 50px;
+
+  img {
+    width: 268px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+div#teaser {
+  padding-top: 50px;
+
+  img {
+    width: 255px;
+    height: 293px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  span {
+    font-family: "Hind","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+  }
+}
+
+div#signup-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Hind","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  label#emailLabel {
+    display: block;
+  }
+
+  div.mc-field-group {
+    display: inline;
+    float: left;
+    margin-right: 10px;
+
+    input#mce-EMAIL {
+      padding: 14px 26px 14px 26px;
+      border: 1px solid #eee;
+      width: 400px;
+    }
+  }
+
+  div.clear {
+    input.button {
+      background: #fff;
+      padding: 14px 26px 10px 26px;
+      border: 4px double #141414;
+      display: inline-block;
+      outline: 0;
+      color: #141414;
+      border-radius: 0;
+      text-transform: uppercase;
+    }
+  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "bootstrap";
